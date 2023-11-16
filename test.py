@@ -1,4 +1,9 @@
 import os
+import requests
+
+# url = "https://api-inference.huggingface.co/pipeline/text2text-generation/google/flan-t5-xxl"
+# response = requests.get(url, verify=False)
+
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
